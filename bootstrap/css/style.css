@@ -9,30 +9,32 @@ body {
 }
 
 nav {
-	color: rosybrown;
+	color: rgb(0, 0, 0);
 }
+
 .jumbotron {
 	height: 400px;
 	background-color: rgb(127, 171, 252);
-	background-image: url('../img/portfolio/header.png');
+	background-image: url('../img/portfolio/white-neural-network-illustration.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	color: #686767;
 	background-position: 0 -100px;
 	overflow: hidden;
-	
-	
-	
+
+
+
 }
 
 .jumbotron img {
 	width: 200px;
 	border: 5px solid #eaeaea;
 	box-shadow: 1px 1px 10px rgba(251, 251, 251, 0.7);
-	
+
 }
 
-.jumbotron h1, .jumbotron p{
+.jumbotron h1,
+.jumbotron p {
 	text-shadow: 1px 1px 10px rgba(251, 251, 251, 0.7);
 }
 
@@ -45,46 +47,53 @@ section {
 	min-height: 500px;
 }
 
-.pKiri, .pKanan{ 
+.pKiri,
+.pKanan {
 	opacity: 0;
-	transform: translate(-50px,0) rotate(15deg);
+	transform: translate(-50px, 0) rotate(15deg);
 	transition: 1s;
 }
-.pKanan{
-	transform: translate(50px,0) rotate(-15deg);
+
+.pKanan {
+	transform: translate(50px, 0) rotate(-15deg);
 	transition: 1s;
 }
-.pKiri.pMuncul, .pKanan.pMuncul{
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
 	opacity: 1;
-	transform: translate(0,0);
+	transform: translate(0, 0);
 }
 
 .portfolio {
-	background-color:rgb(127, 171, 252);
-	background-image: url(../img/portfolio/header.png);
+	background-color: rgb(127, 171, 252);
+	background-image: url(../img/portfolio/background-concept-technology.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	background-position: 0,-100;
+	background-position: 0, -100;
 	opacity: 50%;
 }
-.portfolio .thumbnail{
+
+.portfolio .thumbnail {
 	opacity: 0;
-	transform: translate(0,-40px);
+	transform: translate(0, -40px);
 	transition: .5s;
 }
-.portfolio .thumbnail.muncul{
+
+.portfolio .thumbnail.muncul {
 	opacity: 1;
-	transform: translate(0,0);
+	transform: translate(0, 0);
 }
 
 .contact {
 	min-height: 750px;
 }
 
-h2{
+h2 {
 	color: rgba(104, 103, 103, 0.7);
 	font-size: 4em;
 }
+
 footer {
 	position: absolute;
 	bottom: 0;
@@ -106,14 +115,3 @@ footer p a {
 	color: salmon;
 	font-size: 1.2em;
 }
-
-
-
-
-
-
-
-
-
-
-
